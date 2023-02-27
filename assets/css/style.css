@@ -11,7 +11,7 @@
 :root{
     --width_boxes: 70%;
     --color-blue: #0061FE; 
-    --color-light-blue: #D7E6FB;
+    --color-light-blue: #C1D1E4;
     --color-white: #FFFFFF;
     --color-black: #23272A;
     /* --color-black-hover:#313338;
@@ -74,12 +74,16 @@ a{
     max-height: 450px;
 }
 
-.min-height-330{
-    min-height: 330px;
-}
-
 .min-height-60{
     min-height: 60px;
+}
+
+.min-height-80{
+    min-height: 80px;
+}
+
+.min-height-330{
+    min-height: 330px;
 }
 
 .margin-auto{
@@ -98,12 +102,17 @@ a{
     margin-bottom: 40px;
 }
 
-.mt-70{
-    margin-top: 70px;
-}
-
 .mt-20{
     margin-top: 20px;
+}
+
+.mt-40{
+    margin-top: 40px;
+}
+
+
+.mt-70{
+    margin-top: 70px;
 }
 
 .ml-20{
@@ -175,6 +184,11 @@ a{
 /* END: flex classes */
 
 /* START: position */
+.position-fix{
+    position: fixed;
+    top: 0;
+    /* bottom: 0; */
+}
 
 .position-abs{
     position: absolute;
@@ -187,7 +201,6 @@ a{
 .left-395{
     left: 395px;
 }
-
 /* END: position */
 
 /* START: colors */
@@ -207,3 +220,12 @@ a{
     background-color: var(--color-white);
 }
 /* END: colors */
+
+/* START: hover effects */
+.hover-bott-border:hover{
+    border-bottom: 2px solid var(--color-black);
+}
+
+.hover-button-opacity:hover{
+    opacity: 0.75;
+}
