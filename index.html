@@ -95,12 +95,13 @@
 
     
     <!-- START: main -->
-    <main class="debug mt-150 width-65 margin-auto padd-10 mb-20">
+    <main class="debug max-width mt-150 width-65 margin-auto padd-10 mb-20">
 
         <h2 class="mb-40 font-size-40">
             Trova il piano business che fa per te
         </h2>
 
+        <!-- start: fake buttons -->
         <div class="mb-20">
             <span class="debug mr-20 font-size-18">
                 <i class="fa-solid fa-circle-dot col-blue"></i>
@@ -108,21 +109,226 @@
             </span>
             <span class="debug font-size-18">
                 <i class="fa-regular fa-circle col-light-gray"></i>
-                Fatturazione mensile
+                Fatturazione annuale
             </span>
         </div>
+        <!-- end: fake buttons -->
         
+        <!-- start: 3 piani in colonna -->
+        <div class="debug padd-10 flex flex-dir-row just-cont-around flex-wrap mb-20">
 
-        <div class="debug padd-10 flex flex-dir-row just-cont-around flex-wrap">
+            <!-- left -->
+            <div class="debug min-height-80 width-calc-3 padd-20">
+                
+                <div class="debug flex flex-dir-row just-cont-center padd-5 mb-40">
+                    <i class="fa-solid fa-user mr-10"></i>
+                    Singolo
+                </div>
 
-            <div class="debug min-height-80 width-calc-3">
-                
+                <h3 class="font-size-25 mb-20">
+                    Professional
+                </h3>
+
+                <div class="text-bold mb-10">
+                    &euro; 12.00
+                </div>
+
+                <div class="col-dark-gray mb-40">
+                    /mese
+                </div>
+
+                <ul class="user-list">
+                    <li class="mb-10">
+                        <i class="fa-solid fa-user mr-5"></i>
+                        1 utente
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-folder mr-5"></i>
+                        5 TB di spazio di archiviazione sicuro
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-share-nodes mr-5"></i>
+                        Funzioni di produttività premium e condivisione file semplice e sicura
+                    </li>
+                </ul>
+
+                <button class="mt-40 mb-20 padd-10 bg-blue col-white border-none font-size-18 hover-button-opacity" style="width: 100%;">
+                    Prova gratis per 30 giorni
+                </button> <br>
+
+                oppure <a href="#" class="a-underline">acquista ora</a>
+
+                <hr class="mt-40 width-25 col-dark-gray">
+
+                <h4 class="mt-40 mb-20">
+                    Punti salienti del piano
+                </h4>
+
+                <ul class="user-list">
+                    <li>
+                        <img src="./assets/img/check-solid.svg" alt="check-solid" class="max-width-18 max-height-18">
+                        Invia file fino a 100 GB con Dropbox Transfert
+                    </li>
+                    <li>
+                        <img src="./assets/img/check-solid.svg" alt="check-solid" class="max-width-18 max-height-18">
+                        Cartelle offline su dispositivi mobili
+                    </li>
+                </ul>
+
             </div>
-            <div class="debug min-height-80 width-calc-3">
+
+            <!-- center -->
+            <div class="debug min-height-80 width-calc-3 padd-20">
                 
+                <div class="debug flex flex-dir-row just-cont-center padd-5 mb-40">
+                    <i class="fa-solid fa-users mr-10"></i>
+                    Team
+                </div>
+
+                <h3 class="font-size-25 mb-20">
+                    Advanced
+                </h3>
+
+                <div class="text-bold mb-10">
+                    &euro; 18.00
+                </div>
+
+                <div class="col-dark-gray mb-40">
+                    /utente/mese
+                </div>
+
+                <ul class="user-list">
+                    <li class="mb-10">
+                        <i class="fa-solid fa-user mr-5"></i>
+                        3 o più utenti
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-folder mr-5"></i>
+                        Tutto lo spazio di cui ha bisogno il tuo team
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-share-nodes mr-5"></i>
+                        Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
+                    </li>
+                </ul>
+
+                <button class="mt-40 mb-20 padd-10 bg-blue col-white border-none font-size-18 hover-button-opacity" style="width: 100%;">
+                    Prova gratis per 30 giorni
+                </button> <br>
+
+                oppure <a href="#" class="a-underline">acquista ora</a>
+
+                <hr class="mt-40 width-25 col-dark-gray">
+
+                <h4 class="mt-40 mb-20">
+                    Punti salienti del piano
+                </h4>
+
+                <ul class="user-list">
+                    <li>
+                        <img src="./assets/img/check-solid.svg" alt="check-solid" class="max-width-18 max-height-18">
+                        Nessun limite di spazio per i file
+                    </li>
+                    <li>
+                        <img src="./assets/img/check-solid.svg" alt="check-solid" class="max-width-18 max-height-18">
+                        Cartelle offline su dispositivi mobili
+                    </li>
+                    <li>
+                        <img src="./assets/img/check-solid.svg" alt="check-solid" class="max-width-18 max-height-18">
+                        Risparmio del 50% rispetto alle iscrizioni singole
+                    </li>
+                    <li>
+                        <img src="./assets/img/check-solid.svg" alt="check-solid" class="max-width-18 max-height-18">
+                        Possibilità di inserire nuovi membri del team
+                    </li>
+                    <li>
+                        <img src="./assets/img/check-solid.svg" alt="check-solid" class="max-width-18 max-height-18">
+                        Gestione dei permessi in base ai ruoli
+                    </li>
+                </ul>
+
             </div>
-            <div class="debug min-height-80 width-calc-3">
+
+            <!-- right -->
+            <div class="debug min-height-80 width-calc-3 padd-20">
                 
+                <div class="debug flex flex-dir-row just-cont-center padd-5 mb-40">
+                    <i class="fa-solid fa-building mr-10"></i>
+                    Azienda
+                </div>
+
+                <h3 class="font-size-25 mb-20">
+                    Professional
+                </h3>
+
+                <div class="text-bold mb-10">
+                    Contattaci
+                </div>
+
+                <div class="col-dark-gray mb-40">
+                    -
+                </div>
+
+                <ul class="user-list">
+                    <li class="mb-10">
+                        <i class="fa-solid fa-user mr-5"></i>
+                        10 o più utenti
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-folder mr-5"></i>
+                        Soluzioni personalizzabili per la tua azienda
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-share-nodes mr-5"></i>
+                        Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
+                    </li>
+                </ul>
+
+                <button class="mt-40 mb-20 padd-10 bg-blue col-white border-none font-size-18 hover-button-opacity" style="width: 100%;">
+                    Contattaci
+                </button> <br>
+
+                oppure <a href="#" class="a-underline">acquista ora</a>
+
+                <hr class="mt-40 width-25 col-dark-gray">
+
+                <h4 class="mt-40 mb-20">
+                    Punti salienti del piano
+                </h4>
+
+                <ul class="user-list">
+                    <li>
+                        <img src="./assets/img/check-solid.svg" alt="check-solid" class="max-width-18 max-height-18">
+                        Cartekke offline su dispositivi mobili
+                    </li>
+                    <li>
+                        <img src="./assets/img/check-solid.svg" alt="check-solid" class="max-width-18 max-height-18">
+                        Servizio assistenza 24/h
+                    </li>
+                    <li>
+                        <img src="./assets/img/check-solid.svg" alt="check-solid" class="max-width-18 max-height-18">
+                        Possibilità di personalizzazione totale
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+        <!-- end: 3 piani in colonna -->
+
+        <div class="debug flex flex-dir-col">
+
+            <div class="debug flex flex-dir-row just-cont-center padd-5 mb-20 padd-10">
+                <i class="fa-solid fa-building mr-10"></i>
+                Team
+            </div>
+
+            <div>
+                <h3 class="font-size-25 mb-20">
+                    Enterprise
+                </h3>
+
+
             </div>
 
         </div>

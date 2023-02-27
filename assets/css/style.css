@@ -16,6 +16,7 @@
     --color-white: #FFFFFF;
     --color-black: #23272A;
     --color-light-gray: lightgray;
+    --color-dark-gray: rgb(170, 170, 170);
     /* --color-black-hover:#313338;
     --color-purple: #585BBE;
     --color-purple-hover: #7983F5; */
@@ -30,13 +31,27 @@ h1{
     font-size: 90px
 }
 
-ul{
+/* ul{
+    list-style-type: none;
+} */
+
+/* ul li{
+    display: inline-block;
+    margin: 0 25px;
+} */
+
+.user-list{
     list-style-type: none;
 }
 
-ul li{
-    display: inline-block;
-    margin: 0 25px;
+.user-list li{
+    display: block;
+    margin: 0 0 20px;
+}
+
+.li-style li{
+    list-style: disc;
+    list-style-image: url(../img/partner.png);
 }
 
 a{
@@ -44,8 +59,20 @@ a{
     color: var(--color-black);
 }
 
+.a-underline{
+    text-decoration: underline;
+}
+
 .max-width{
     max-width: var(--max-width-val);
+}
+
+.max-width-18{
+    max-width: 18px;
+}
+
+.width-25{
+    width: 25%;
 }
 
 .width-30{
@@ -65,7 +92,7 @@ a{
 }
 
 .width-calc-3{
-    width: calc(100%/3 - 1%);
+    width: calc(100%/3 - 6%);
 }
 
 .height-100{
@@ -74,6 +101,10 @@ a{
 
 .height-px{
     height: 700px;
+}
+
+.max-height-18{
+    max-height: 18px;
 }
 
 .max-height-450{
@@ -100,6 +131,10 @@ a{
     margin: 20px;
 }
 
+.mb-10{
+    margin-bottom: 10px;
+}
+
 .mb-20{
     margin-bottom: 20px;
 }
@@ -115,7 +150,6 @@ a{
 .mt-40{
     margin-top: 40px;
 }
-
 
 .mt-70{
     margin-top: 70px;
@@ -133,20 +167,28 @@ a{
     margin-left: 20px;
 }
 
-.mr-20{
-    margin-right: 20px;
+.mr-5{
+    margin-right: 5px;
 }
 
 .mr-10{
     margin-right: 10px;
 }
 
-.padd-20{
-    padding: 20px;
+.mr-20{
+    margin-right: 20px;
+}
+
+.padd-5{
+    padding: 5px;
 }
 
 .padd-10{
     padding: 10px;
+}
+
+.padd-20{
+    padding: 20px;
 }
 
 .padd-bottom-10{
@@ -155,6 +197,10 @@ a{
 
 .padd-bottom-70{
     padding-bottom: 70px;
+}
+
+.padd-top-10{
+    padding-top: 10px;
 }
 
 .padd-top-70{
@@ -169,8 +215,16 @@ a{
     font-size: 18px;
 }
 
+.font-size-25{
+    font-size: 25px;
+}
+
 .font-size-40{
     font-size: 40px;
+}
+
+.text-bold{
+    font-weight: bold;
 }
 
 .img-logo{
@@ -202,6 +256,10 @@ a{
 
 .just-cont-between{
     justify-content: space-between;
+}
+
+.just-cont-center{
+    justify-content: center;
 }
 
 .align-it-center{
@@ -236,6 +294,10 @@ a{
 
 .col-light-gray{
     color: var(--color-light-gray);
+}
+
+.col-dark-gray{
+    color: var(--color-dark-gray);
 }
 
 .col-white{
