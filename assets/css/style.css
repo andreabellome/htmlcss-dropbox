@@ -20,7 +20,7 @@
     /* --color-black-hover:#313338;
     --color-purple: #585BBE;
     --color-purple-hover: #7983F5; */
-    --max-width-val: 1400px;
+    --max-width-val: 1300px;
 }
 
 .debug{
@@ -71,6 +71,14 @@ a{
     max-width: 18px;
 }
 
+.max-width-900{
+    max-width: 650px;
+}
+
+.width-15{
+    width: 15%;
+}
+
 .width-25{
     width: 25%;
 }
@@ -87,12 +95,17 @@ a{
     width: 70%;
 }
 
+.width-75{
+    width: 75%;
+}
+
+
 .width-100{
     width: 100%;
 }
 
 .width-calc-3{
-    width: calc(100%/3 - 6%);
+    width: calc(100%/3 - 9%);
 }
 
 .height-100{
