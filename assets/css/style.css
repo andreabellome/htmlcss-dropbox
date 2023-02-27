@@ -1,0 +1,209 @@
+/* START: reset */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap'); /* importa il font */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+:root{
+    --width_boxes: 70%;
+    --color-blue: #0061FE; 
+    --color-light-blue: #D7E6FB;
+    --color-white: #FFFFFF;
+    --color-black: #23272A;
+    /* --color-black-hover:#313338;
+    --color-purple: #585BBE;
+    --color-purple-hover: #7983F5; */
+    --max-width-val: 1400px;
+}
+
+.debug{
+    border: 2px dashed red;
+}
+
+h1{
+    font-size: 90px
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+    margin: 0 25px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+.max-width{
+    max-width: var(--max-width-val);
+}
+
+.width-30{
+    width: 30%;
+}
+
+.width-65{
+    width: 65%;
+}
+
+.width-70{
+    width: 70%;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.height-100{
+    height: 100%;
+}
+
+.height-px{
+    height: 700px;
+}
+
+.max-height-450{
+    max-height: 450px;
+}
+
+.min-height-330{
+    min-height: 330px;
+}
+
+.min-height-60{
+    min-height: 60px;
+}
+
+.margin-auto{
+    margin: 0 auto;
+}
+
+.m-20{
+    margin: 20px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.mt-70{
+    margin-top: 70px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.ml-20{
+    margin-left: 20px;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.padd-20{
+    padding: 20px;
+}
+
+.padd-10{
+    padding: 10px;
+}
+
+.padd-bottom-10{
+    padding-bottom: 10px;
+}
+
+.border-none{
+    border: none;
+}
+
+.font-size-18{
+    font-size: 18px;
+}
+
+.img-logo{
+    display: inline-block;
+    max-height: 20px;
+}
+/* END: reset */
+
+/* START: flex classes */
+.flex{
+    display: flex;
+}
+
+.flex-dir-col{
+    flex-direction: column;
+}
+
+.flex-dir-row{
+    flex-direction: row;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.just-cont-around{
+    justify-content: space-around;
+}
+
+.just-cont-between{
+    justify-content: space-between;
+}
+
+.align-it-center{
+    align-items: center;
+}
+/* END: flex classes */
+
+/* START: position */
+
+.position-abs{
+    position: absolute;
+}
+
+.position-rel{
+    position: relative;
+}
+
+.left-395{
+    left: 395px;
+}
+
+/* END: position */
+
+/* START: colors */
+.col-white{
+    color: var(--color-white);
+}
+
+.bg-blue{
+    background-color: var(--color-blue);
+}
+
+.bg-light-blue{
+    background-color: var(--color-light-blue);
+}
+
+.bg-white{
+    background-color: var(--color-white);
+}
+/* END: colors */
