@@ -265,12 +265,20 @@ a{
     padding-bottom: 10px;
 }
 
+.padd-bottom-20{
+    padding-bottom: 20px;
+}
+
 .padd-bottom-70{
     padding-bottom: 70px;
 }
 
 .padd-top-10{
     padding-top: 10px;
+}
+
+.padd-top-20{
+    padding-top: 20px;
 }
 
 .padd-top-70{
@@ -416,6 +424,14 @@ a{
     border: none;
 }
 
+.border-top-col-dark{
+    border-top: 1px solid var(--color-black);
+}
+
+.border-bottom-col-dark{
+    border-bottom: 1px solid var(--color-black);
+}
+
 .border-col-dark-gray{
     border: 1px solid var(--color-dark-gray);
 }
@@ -426,6 +442,26 @@ a{
 /* END: colors */
 
 /* START: hover effects */
+.card-b{
+    display: none;
+}
+
+.card-top:hover .card-a{
+    display: none;
+}
+
+.card-top:hover .card-b{
+    display: block;
+}
+
+.hover-disp:hover{
+    display: block;
+}
+
+.hover-disp-none:hover{
+    display: none;
+}
+
 .hover-bott-border:hover{
     border-bottom: 2px solid var(--color-black);
 }
