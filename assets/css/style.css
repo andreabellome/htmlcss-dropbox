@@ -95,6 +95,18 @@ a{
     width: 30%;
 }
 
+.width-40{
+    width: 40%;
+}
+
+.width-50{
+    width: 50%;
+}
+
+.width-55{
+    width: 55%;
+}
+
 .width-65{
     width: 65%;
 }
@@ -216,6 +228,19 @@ a{
     margin-right: 20px;
 }
 
+.mr-30{
+    margin-right: 30px;
+}
+
+.mr-40{
+    margin-right: 40px;
+}
+
+.mr-50{
+    margin-right: 50px;
+}
+
+
 .padd-5{
     padding: 5px;
 }
@@ -242,10 +267,6 @@ a{
 
 .padd-top-70{
     padding-top: 70px;
-}
-
-.border-none{
-    border: none;
 }
 
 .font-size-10{
@@ -377,6 +398,14 @@ a{
 
 .bg-white{
     background-color: var(--color-white);
+}
+
+.border-none{
+    border: none;
+}
+
+.border-col-dark-gray{
+    border: 1px solid var(--color-dark-gray);
 }
 
 .border-col-light-gray{
