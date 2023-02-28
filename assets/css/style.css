@@ -58,6 +58,10 @@ h1{
     /* margin: 0 0 10px; */
 }
 
+.user-list-bott li a:hover{
+    text-decoration: underline;
+}
+
 .li-style li{
     list-style: disc;
     list-style-image: url(../img/partner.png);
