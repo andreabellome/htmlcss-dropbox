@@ -27,6 +27,10 @@
     --color-green: #A2D39B;
 
     --color-dark-red: #61082B;
+    --color-super-red: #FF1C1C;
+    --color-super-dark-red: #D5001F;
+
+    --color-yellow: #FFD830;
 
     --max-width-val: 1300px;
 }
@@ -431,6 +435,10 @@ a{
     background-color: var(--color-black);
 }
 
+.bg-yellow{
+    background-color: var(--color-yellow);
+}
+
 .bg-blue{
     background-color: var(--color-blue);
 }
@@ -457,6 +465,14 @@ a{
 
 .bg-dark-red{
     background-color: var(--color-dark-red);
+}
+
+.bg-super-red{
+    background-color: var(--color-super-red);
+}
+
+.bg-super-dark-red{
+    background-color: var(--color-super-dark-red);
 }
 
 .bg-green{
