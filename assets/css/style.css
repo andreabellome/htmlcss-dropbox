@@ -11,15 +11,23 @@
 
 :root{
     --width_boxes: 70%;
+
     --color-blue: #0061FE; 
+    --color-super-blue: #0093CE;
     --color-light-blue: #C1D1E4;
+    --color-super-dark-blue: #0D2481;
+
     --color-white: #FFFFFF;
     --color-black: #23272A;
+
     --color-light-gray: lightgray;
     --color-dark-gray: rgb(170, 170, 170);
-    /* --color-black-hover:#313338;
-    --color-purple: #585BBE;
-    --color-purple-hover: #7983F5; */
+
+    --color-light-green: #D1E9CD;
+    --color-green: #A2D39B;
+
+    --color-dark-red: #61082B;
+
     --max-width-val: 1300px;
 }
 
@@ -119,9 +127,16 @@ a{
     width: 75%;
 }
 
-
 .width-100p100{
     width: 100%;
+}
+
+.width-calc-2-comp{
+    width: calc(100%/2);
+}
+
+.width-calc-3-comp{
+    width: calc(100%/3);
 }
 
 .width-calc-3{
@@ -158,6 +173,10 @@ a{
 
 .min-height-330{
     min-height: 330px;
+}
+
+.aspect-ratio-1{
+    aspect-ratio: 1;
 }
 
 .margin-auto{
@@ -259,6 +278,10 @@ a{
 
 .padd-20{
     padding: 20px;
+}
+
+.padd-25{
+    padding: 25px;
 }
 
 .padd-bottom-10{
@@ -414,6 +437,34 @@ a{
 
 .bg-light-blue{
     background-color: var(--color-light-blue);
+}
+
+.bg-super-blue{
+    background-color: var(--color-super-blue);
+}
+
+.bg-light-blue{
+    background-color: var(--color-light-blue);
+}
+
+.bg-super-dark-blue{
+    background-color: var(--color-super-dark-blue);
+}
+
+.bg-light-gray{
+    background-color: var(--color-light-gray);
+}
+
+.bg-dark-red{
+    background-color: var(--color-dark-red);
+}
+
+.bg-green{
+    background-color: var(--color-green);
+}
+
+.bg-light-green{
+    background-color: var(--color-light-green);
 }
 
 .bg-white{
